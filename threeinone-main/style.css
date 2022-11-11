@@ -1,0 +1,91 @@
+body{
+    background-color: #d8dfef
+
+}
+.title{
+    text-align: center;
+    color: #440583;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.main-poster{
+    width: 650px;
+    height: 550px;
+}
+.main-poster-div{
+    display: flex;
+    justify-content: center;
+}
+.events{
+    text-align: center;
+    color: #440583;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.event-poster-div{
+    display: flex;
+    justify-content: center;
+}
+.event-poster{
+    width: 350px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.register-link-div{
+    display: flex;
+    align-items:center;
+    
+}
+.link{
+    text-decoration: none;
+    align-items: center;
+   
+}
+.description{
+    text-align: center;
+    color: #440583;
+    font-family: monospace;
+}
+.btn{
+    background-color:#bbbdf8 ;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background: white;
+}
+
+.desc-event{
+    color:#440583 ;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width:860px){
+    .event-poster-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-poster{
+        width: 300px;
+        margin-bottom: 25px;
+    }
+    .main-poster-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-poster{
+        width:350px ;
+        margin: 20px;
+    }
+    .description{
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .desc-event{
+        flex-direction: column;
+       align-content: center;
+        align-self:center;
+        
+    }
+}
